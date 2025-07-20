@@ -209,7 +209,7 @@ def get_tree_state(nodes):
 
 # Initialize Flask app
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://tree-lock.vercel.app/", "https://localhost:3000", ])
 
 # Global variables for tree state
 nodes = {}
