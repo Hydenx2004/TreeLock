@@ -1,7 +1,7 @@
 import threading
 import time
 import random
-from Test import build_tree, lock as tree_lock, unlock as tree_unlock, upgrade_lock as tree_upgrade
+from Thread_safe import build_tree, lock as tree_lock, unlock as tree_unlock, upgrade_lock as tree_upgrade
 
 def test_concurrent_operations():
     """Test concurrent lock operations on the same tree"""
