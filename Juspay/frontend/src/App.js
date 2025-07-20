@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_BASE_URL = 'https://treelock.ddns.net:5000';
+const API_BASE_URL = 'https://treelock.ddns.net';
 
 function App() {
   const [treeData, setTreeData] = useState({});
